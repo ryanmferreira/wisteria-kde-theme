@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "dev.ryanmferreira@outlook.com",
+                "Name": "Ryan Ferreira"
+            }
+        ],
+        "Description": "WisteriaKDE by Ryan Ferreira",
+        "Description[pt_BR]": "WisteriaKDE, feito por Ryan Ferreira",
+        "Id": "WisteriaKDE",
+        "License": "MIT",
+        "Name": "WisteriaKDE",
+        "Version": "0.0.2",
+        "Website": "https://github.com/ryanmferreira/wisteria-kde-theme"
+    },
+    "X-Plasma-API": "6.0"
+}
