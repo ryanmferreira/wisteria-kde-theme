@@ -22,8 +22,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="4.0000004"
-     inkscape:cx="804.62492"
-     inkscape:cy="100.49999"
+     inkscape:cx="505.87495"
+     inkscape:cy="103.99999"
      inkscape:window-width="1328"
      inkscape:window-height="698"
      inkscape:window-x="0"
@@ -1188,7 +1188,7 @@
        style="display:inline;fill:url(#radialGradient969-3)"
        sodipodi:nodetypes="cccssccc" />
     <path
-       style="fill:#383838;fill-opacity:1;stroke:none;stroke-width:1.525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8"
+       style="fill:#2c2c2c;fill-opacity:1;stroke:none;stroke-width:1.525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8"
        id="rect4-3"
        width="29"
        height="30"
@@ -1198,17 +1198,6 @@
        d="m 93,80 h 17 v 30 H 81 V 92 A 12,12 135 0 1 93,80 Z"
        inkscape:path-effect="#path-effect5-367-2"
        transform="translate(220,121.0675)" />
-    <path
-       style="fill:#2c2c2c;fill-opacity:1;stroke:none;stroke-width:1.525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:8"
-       id="path21"
-       width="29"
-       height="30"
-       x="81"
-       y="80"
-       sodipodi:type="rect"
-       d="m 93,80 h 17 v 30 H 81 V 92 A 12,12 135 0 1 93,80 Z"
-       inkscape:path-effect="#path-effect22-9"
-       transform="matrix(1,0,0,0.93333333,220,128.40083)" />
   </g>
   <g
      id="decoration-inactive-bottom"
@@ -1246,11 +1235,7 @@
     <path
        d="m 325,176 v 30 h 145 v -30 z"
        id="path1810"
-       style="fill:#383838;fill-opacity:1" />
-    <path
-       d="m 325,178.01177 v 27.98546 h 145 v -27.98546 z"
-       id="path20"
-       style="fill:#2c2c2c;fill-opacity:1;stroke-width:0.965841" />
+       style="fill:#2c2c2c;fill-opacity:1" />
   </g>
   <g
      id="decoration-inactive-left"
