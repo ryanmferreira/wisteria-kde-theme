@@ -1,0 +1,16 @@
+[ContrastEffect]
+contrast=0.2
+enabled=true
+intensity=2.0
+saturation=1.7
+
+[Desktop Entry]
+X-KDE-PluginInfo-Author=Ryan Ferreira
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Email=dev.ryanmferreira@outlook.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-Name=WisteriaKDE
+X-KDE-PluginInfo-Version=0.0.2
+X-KDE-PluginInfo-Website=https://github.com/ryanmferreira/wisteria-kde-theme
+X-Plasma-API=6.0

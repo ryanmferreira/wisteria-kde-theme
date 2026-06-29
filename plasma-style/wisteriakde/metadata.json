@@ -6,9 +6,10 @@
                 "Name": "Ryan Ferreira"
             }
         ],
+        "Category": "",
         "Description": "WisteriaKDE by Ryan Ferreira",
         "Description[pt_BR]": "WisteriaKDE, feito por Ryan Ferreira",
-        "Id": "WisteriaKDE",
+        "Id": "wisteriakde",
         "License": "MIT",
         "Name": "WisteriaKDE",
         "Version": "0.0.2",
