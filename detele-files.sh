@@ -1,6 +1,8 @@
 #!/bin/bash
 
-if rm -rf "$HOME/.local/share/aurorae/themes/wisteriakde"; then
+shopt -s nocaseglob
+
+if rm -rf "$HOME/.local/share/aurorae/themes/wisteriakde"*; then
     echo "Aurorae folders or symbolic link deleted successfully!"
 else
     echo "Failed to delete Aurorae folders or symbolic link."
@@ -12,7 +14,10 @@ else
     echo "Failed to delete Plasma Style folders or symbolic link."
 fi
 
+shopt -u nocaseglob
+
 echo
+
 read -rp "Create symbolic links now? (y/N): " answer
 
 if [[ "$answer" =~ ^[Yy]$ ]]; then
