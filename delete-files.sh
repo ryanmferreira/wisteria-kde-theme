@@ -21,6 +21,7 @@ echo
 read -rp "Create symbolic links now? (y/N): " answer
 
 if [[ "$answer" =~ ^[Yy]$ ]]; then
+    echo -e "\n"
     bash create-symbolic-links.sh
 else
     echo "Skipping symbolic link creation."

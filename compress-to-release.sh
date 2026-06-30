@@ -2,16 +2,16 @@
 
 mkdir -p "$PWD/release"
 
-echo "Starting theme compression..."
+echo -e "Starting theme compression...\n"
 
 if (cd "$PWD/aurorae" && tar -czf "../release/WisteriaKDEAurorae.tar.gz" wisteriakde); then
-    echo "Aurorae compacted successfully to release/WisteriaKDEAurorae.tar.gz"
+    echo -e "Aurorae compacted successfully to release/WisteriaKDEAurorae.tar.gz"
 else
     echo "Error compacting Aurorae."
 fi
 
 if (cd "$PWD/plasma-style" && tar -czf "../release/WisteriaKDEPlasmaStyle.tar.gz" wisteriakde); then
-    echo "Plasma Style compacted successfully to release/WisteriaKDEPlasmaStyle.tar.gz"
+    echo -e "Plasma Style compacted successfully to release/WisteriaKDEPlasmaStyle.tar.gz\n"
 else
     echo "Error compacting Plasma Style."
 fi
