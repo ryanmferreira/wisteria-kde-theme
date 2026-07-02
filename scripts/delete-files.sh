@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo -e "===================\n Deleting files... \n==================="
+
 shopt -s nocaseglob
 
 if rm -rf "$HOME/.local/share/aurorae/themes/wisteriakde"*; then
@@ -22,7 +24,7 @@ read -rp "Create symbolic links now? (y/N): " answer
 
 if [[ "$answer" =~ ^[Yy]$ ]]; then
     echo -e "\n"
-    bash create-symbolic-links.sh
+    cd scripts && bash create-symbolic-links.sh
 else
     echo "Skipping symbolic link creation."
 fi
