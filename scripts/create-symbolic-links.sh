@@ -2,7 +2,7 @@
 
 echo -e "============================\n Creating symbolic links... \n============================"
 
-THISLOCATION=".."
+THISLOCATION=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 
 AURORAE_SRC="$THISLOCATION/aurorae/wisteriakde"
 PLASMA_SRC="$THISLOCATION/plasma-style/wisteriakde"
