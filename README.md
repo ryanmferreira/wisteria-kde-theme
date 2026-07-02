@@ -23,3 +23,23 @@ git clone https://github.com/ryanmferreira/wisteria-kde-theme.git
 cd wisteria-kde-theme
 ./create-symbolic-links.sh
 ```
+
+### File Structure
+
+```plaintext
+.
+├── aurorae
+│   └── wisteriakde
+├── LICENSE
+├── plasma-style
+│   └── wisteriakde
+├── README.md
+├── release
+│   ├── WisteriaKDEAurorae.tar.gz
+│   └── WisteriaKDEPlasmaStyle.tar.gz
+└── scripts
+    ├── compress-to-release.sh
+    ├── create-symbolic-links.sh
+    ├── delete-files.sh
+    └── restart-plasma-shell.sh
+```
